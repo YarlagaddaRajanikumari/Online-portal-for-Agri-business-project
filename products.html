@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products Page</title>
+<link rel="stylesheet" href="style4.css">
+    </head>
+    <body>
+        <div class="container" >
+            <div class ="navbar">
+        <nav>
+            <ul id="MenuItems">
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./product.html">PRODUCTS</a></li>
+        <li><a href="./about.html">ABOUT</a></li>
+        <li><a href="./contact.html">CONTACT</a></li>
+        <li><a href="./register.html">REGISTER</a></li>
+            </ul>
+            </nav>
+     <img src="./cart icon" width="30px" height="30px" >
+     <img src="./menu icon"   class="menu-icon" onclick="menutoggle()">
+     
+        </div>
+        </div>
+        
+        <div class="categories">
+            <div class="small-container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="./product photos/onions" >
+                    <h3>Onions</h3>
+                    <p>1Kg Rs.50</p>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="30">
+
+                </div>
+                <div class="col-1">
+                    <img src="./product photos/Tomato" >
+                    <h3>Tomatos</h3>
+                    <p>1Kg Rs.50</p>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="30">
+                </div>
+                <div class="col-1">
+                    <img src="./product photos/Cauliflower" >
+                    <h3>Cauliflower</h3>
+                    <p>Rs.20</p>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="30">
+                </div>
+                <div class="col-1">
+                    <img src="./product photos/carrots" >
+                    <h3>Carrots</h3>
+                    <p>1Kg Rs.30</p>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="30">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <img src="./product photos/potatos" >
+                    <h3>Potatos</h3>
+                    <p>1Kg Rs.40</p>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="30">
+
+                </div>
+                <div class="col-1">
+                    <img src="./product photos/Drumstick" >
+                    <h3>Drumstick</h3>
+                    <p>1 for Rs.5</p>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="100">
+                </div>
+                <div class="col-1">
+                    <img src="./product photos/Bitter Gourd.png" >
+                    <h3>Bitter Gourd</h3>
+                    <p>1Kg Rs.30</p>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="30">
+                </div>
+                <div class="col-1">
+                    <img src="./product photos/Garlic" >
+                    <h3>Garlic</h3>
+                    <p>1Kg Rs.50</p>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="50">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <img src="./product photos/Grapes" >
+                    <h3>Grapes</h3>
+                    <p>1Kg Rs.50</p>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="30">
+
+                </div>
+                <div class="col-1">
+                    <img src="./product photos/Sweet Corn" >
+                    <h3>Sweet Corn</h3>
+                    <p>1 for Rs.10</p>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="50">
+                </div>
+                <div class="col-1">
+                    <img src="./product photos/Ridge Gourd" >
+                    <h3>Ridge Gourd</h3>
+                    <p>1Kg Rs.35</p>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="30">
+                </div>
+                <div class="col-1">
+                    <img src="./product photos/Ladies Finger" >
+                    <h3>Ladies Finger</h3>
+                    <p>1Kg Rs.30</p>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="30">
+                </div>
+            
+        </div>
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle(){
+                if( MenuItems.style.maxHeight =="0px"){
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+        </body>
+</html>

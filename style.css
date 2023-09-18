@@ -1,0 +1,25 @@
+body {
+
+   background-image: url(./Home\ image.jpg);
+   min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+   
+}
+h1 {
+   color: #d42778; 
+   text-align: center;
+   padding-top: 1%;
+   
+}
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+a {
+   text-decoration: none;
+}
