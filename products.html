@@ -11,22 +11,31 @@
             <div class ="navbar">
         <nav>
             <ul id="MenuItems">
-        <li><a href="./index.html">HOME</a></li>
-        <li><a href="./product.html">PRODUCTS</a></li>
+        <li><a class="active" href="./index.html">HOME</a></li>
+        <li><a href="./products.html">PRODUCTS</a></li>
         <li><a href="./about.html">ABOUT</a></li>
-        <li><a href="./contact.html">CONTACT</a></li>
         <li><a href="./register.html">REGISTER</a></li>
             </ul>
             </nav>
-     <img src="./cart icon" width="30px" height="30px" >
-     <img src="./menu icon"   class="menu-icon" onclick="menutoggle()">
-     
+<img src="./cart icon" width="30px" height="30px" >
+<img src="./menu icon"   class="menu-icon" onclick="menutoggle()">
+
         </div>
         </div>
         
         <div class="categories">
+            <div class="drop">
+            <h2>All Products</h2>
+                <select>
+                    <option>Default Shorting</option>
+                    <option>Vegitables</option>
+                    <option>Fruits</option>
+                    <option>Seeds</option>
+                </select>
+                </div>
             <div class="small-container">
             <div class="row">
+                
                 <div class="col-1">
                     <img src="./product photos/onions" >
                     <h3>Onions</h3>
@@ -117,6 +126,13 @@
                     <p>1Kg Rs.30</p>
                     <label for="quantity">Quantity</label>
                     <input type="number" id="quantity" name="quantity" min="1" max="30">
+                </div>
+                <div class="page-btn">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>&#8594;</span>
                 </div>
             
         </div>

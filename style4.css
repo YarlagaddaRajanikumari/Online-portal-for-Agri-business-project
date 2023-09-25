@@ -6,7 +6,7 @@
 body{
    font-family: 'poppins',sans-serif;
 }
- .navbar{
+.navbar{
    display: flex;
    align-items: center;
    padding: 20px;
@@ -47,32 +47,67 @@ a {
    justify-content: space-around;
 }
 .col-1{
-    
+
    flex-basis: 25%;
    padding: 10px;
    min-width: 200px;
    margin-bottom: 50px;
-   transition: transform 0.5s;
+   transition: transform 0.9s;
+   object-fit: cover;
 }
 .col-1 img{
-    
-    width: 100%;
-    height: 100%;    
-    border: 2px solid #c6f104b6;
+   width: 200px;
+   height: 200px;
+   border: 2px solid #c6f104b6;
+   
 }
 .small-container{
    width: 1080px;
    margin: auto;
    padding-left: 25px;
    padding-right: 25px;
+
+   
 }
 .col-1:hover{
-   transform: translateY(-5px);
+   transform: translateY(-10px);
+   
 }
 .menu-icon{
    width: 28px;
    margin-left: 20px;
 display: none;
+}
+.drop{
+
+   margin: 100px auto 30px;
+margin-left: 150px;
+}
+select{
+   border: 1px solid #ff523f;
+   padding: 5px;
+   margin-left: 80%;
+}
+select:focus{
+   outline: none;
+
+}
+.page-btn{
+   margin: 0 auto 80px;
+}
+.page-btn span{
+   display: inline-block;
+   border: 1px solid #ff523f;
+   margin-left: 10px;
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+   cursor: pointer;
+}
+.page-btn span:hover{
+   background: #ff523f;
+   color: #fff;
 }
 @media only screen and (max-width: 800px){
    nav ul{
@@ -90,7 +125,7 @@ display: none;
       margin-top: 10px;
       margin-bottom: 10px;
    }
-  
+
 nav ul li a{
 color: #fff;
 
