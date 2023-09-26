@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products Page</title>
+<link rel="stylesheet" href="style4.css">
+    </head>
+    <body>
+        <div class="container" >
+            <div class ="navbar">
+        <nav>
+            <ul id="MenuItems">
+        <li><a class="active" href="./index.html">HOME</a></li>
+        <li><a href="./products.html">PRODUCTS</a></li>
+        <li><a href="./about.html">ABOUT</a></li>
+        <li><a href="./register.html">REGISTER</a></li>
+            </ul>
+            </nav>
+<img src="./cart icon" width="30px" height="30px" >
+<img src="./menu icon"   class="menu-icon" onclick="menutoggle()">
+
+        </div>
+        </div>
+        
+           <div class="small-container cart-page" >
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="./product photos/onions">
+                            <div>
+                            
+                                <p>Onions</p>
+                                <small>Price: Rs.50</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" id="quantity" value="1" name="quantity" min="1" max="100"></td>
+                    <td>Rs.50</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="./product photos/carrots">
+                            <div>
+                            
+                                <p>Carrots</p>
+                                <small>Price: Rs.30</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" id="quantity" value="1" name="quantity" min="1" max="100"></td>
+                    <td>Rs.30</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="./product photos/potatos">
+                            <div>
+                            
+                                <p>Potatos</p>
+                                <small>Price: Rs.40</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" id="quantity" value="1" name="quantity" min="1" max="100"></td>
+                    <td>Rs.40</td>
+                </tr>
+            </table>
+            <div class="total-price">
+                <table>
+                    
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>Rs.120</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>Rs.12</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>Rs.132</td>
+                    </tr>
+                </table>
+            </div>
+           </div>
+            
+                
+        
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle(){
+                if( MenuItems.style.maxHeight =="0px"){
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+        </body>
+</html>

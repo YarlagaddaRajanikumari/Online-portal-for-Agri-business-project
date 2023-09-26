@@ -109,6 +109,78 @@ select:focus{
    background: #ff523f;
    color: #fff;
 }
+.single-product{
+   margin-top: 80px;
+}
+.single-product .col-2 img{
+   padding: 0;
+}
+.single-product .col-2{
+   padding: 20px;
+}
+
+input:focus{
+   outline: none;
+}
+.cart button{
+   background-color: #ff523f;
+   font-size: 20px;
+    display: block;
+    margin-top: 20px;
+    border-style:none;
+    border-radius: 20px;
+    padding: 10px;
+}
+.cart-page{
+   margin: 80px auto;
+}
+table{
+   width: 100%;
+   border-collapse: collapse;
+}
+.cart-info{
+   display: flex;
+   flex-wrap: wrap;
+}
+th{
+text-align: left;
+padding: 6px;
+color: #fff;
+background: #ff523f;
+font-weight: normal;
+}
+td{
+   padding: 10px 5px;
+}
+td input{
+   width: 40px;
+   height: 30px;
+   padding: 5px;
+}
+td a{
+   color: #ff523f;
+   font-size: 12px;
+}
+td img{
+   width: 80px;
+   height: 80px;
+   margin-right: 10px;
+}
+.total-price{
+   display: flex;
+   justify-content: flex-end;
+}
+.total-price table{
+   border-top: 3px solid #ff523f;
+   width: 100%;
+   max-width: 460px;
+}
+td:last-child{
+   text-align: right;
+}
+th:last-child{
+   text-align: right;
+}
 @media only screen and (max-width: 800px){
    nav ul{
       position: absolute;

@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products Page</title>
+<link rel="stylesheet" href="style4.css">
+    </head>
+    <body>
+        <div class="container" >
+            <div class ="navbar">
+        <nav>
+            <ul id="MenuItems">
+        <li><a class="active" href="./index.html">HOME</a></li>
+        <li><a href="./products.html">PRODUCTS</a></li>
+        <li><a href="./about.html">ABOUT</a></li>
+        <li><a href="./register.html">REGISTER</a></li>
+            </ul>
+            </nav>
+<a href="cart.html"><img src="./cart icon" width="30px" height="30px" ></a>
+<img src="./menu icon"   class="menu-icon" onclick="menutoggle()">
+
+        </div>
+        </div>
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./product photos/onions" width="100%" height="100%">
+                </div>
+                <div class="col-1">
+                    <p> Home / Onions</p>
+                    <h1>Onions</h1>
+                    <h4>1Kg Rs.50</h4>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" value="1" name="quantity" min="1" max="30" >
+                    <a href="./cart.html" class="cart" ><button>Add To Cart</button></a>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="categories">
+            
+            <div class="small-container">
+            <div class="row">
+                
+                <div class="col-1">
+                    <img src="./product photos/onions" >
+                    <h3>Onions</h3>
+                    <p>1Kg Rs.50</p>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="30">
+
+                </div>
+                <div class="col-1">
+                    <img src="./product photos/Tomato" >
+                    <h3>Tomatos</h3>
+                    <p>1Kg Rs.50</p>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="30">
+                </div>
+                <div class="col-1">
+                    <img src="./product photos/Cauliflower" >
+                    <h3>Cauliflower</h3>
+                    <p>Rs.20</p>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="30">
+                </div>
+                <div class="col-1">
+                    <img src="./product photos/carrots" >
+                    <h3>Carrots</h3>
+                    <p>1Kg Rs.30</p>
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="30">
+                </div>
+            </div>
+            
+            
+                
+        </div>
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle(){
+                if( MenuItems.style.maxHeight =="0px"){
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+        </body>
+</html>
